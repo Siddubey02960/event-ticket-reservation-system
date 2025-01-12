@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "uuid": "^11.0.5"
+  },
+  "name": "event-ticket-reservation-system",
+  "description": "A simple Node.js-based API for managing event ticket reservations with in-memory storage.",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test/**/*.js --timeout 5000",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Siddubey02960/event-ticket-reservation-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Siddubey02960/event-ticket-reservation-system/issues"
+  },
+  "homepage": "https://github.com/Siddubey02960/event-ticket-reservation-system#readme",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0"
+  }
+}
